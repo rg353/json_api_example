@@ -1,5 +1,32 @@
 # JSON API Docs
 
+## Latest Example
+
+{
+  "entries": [
+    {
+      "template_type": "message",
+      "message": "<img src='https://makerobos.com/cdn/shop/files/Overview_9e774e85-2ecf-4386-a607-0f46fd948cf1.png?v=1724573852' style='width:100%; border-radius:8px;'/>\n\n🚀 New Product Launch!",
+      "full_width": true,
+      "text_color": "#333",
+      "background_color": "#fff",
+      "buttons": [
+        {
+          "title": "Buy Now",
+          "type": "url",
+          "url": "https://example.com/buy"
+        },
+        {
+          "title": "Learn More",
+          "type": "url",
+          "url": "https://example.com/details"
+        }
+      ]
+    }
+  ]
+}
+
+
 ## 1.  Sending simple message
 ```
 {
